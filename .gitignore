@@ -89,5 +89,5 @@
 *.json
 
 # Other
-sentia_app/
 .dart_tool/
+flutter/
