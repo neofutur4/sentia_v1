@@ -90,4 +90,4 @@
 
 # Other
 sentia_app/
-flutter/
+.dart_tool/
