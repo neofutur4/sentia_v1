@@ -11,8 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Mantenemos tu versión de Supabase
   supabase_flutter: ^1.10.25
   cupertino_icons: ^1.0.2
+  # ESTA es la línea mágica que arregla el error de compilación
+  app_links: ^6.0.0
 
 dev_dependencies:
   flutter_test:
