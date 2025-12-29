@@ -11,10 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Mantenemos tu versión de Supabase
-  supabase_flutter: ^1.10.25
+  # ACTUALIZADO: Subimos a la versión 2.12.0 para que soporte AppLinks nuevo
+  supabase_flutter: ^2.12.0
   cupertino_icons: ^1.0.2
-  # ESTA es la línea mágica que arregla el error de compilación
+  # Mantenemos este para que Android V2 funcione
   app_links: ^6.0.0
 
 dev_dependencies:
